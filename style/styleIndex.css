@@ -91,7 +91,7 @@ p{
     
 
     box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3);
-     border-radius: 15px;
+    border-radius: 15px;
 
     vertical-align: top;
 
@@ -203,7 +203,6 @@ li{
 }
 
 .bg-leticia img{
-
     height: 100%;
     width: 100%;
 
@@ -212,15 +211,15 @@ li{
 /* sobre mim */
 
 .divIcones img{
-    width: 5%;
-    height: 5%;
+    width: 50px;
+    height: 50px;
 }
 
 .divIcones{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
     margin-top: 10px;
 }
 

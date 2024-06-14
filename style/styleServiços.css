@@ -1,0 +1,91 @@
+.ol li{
+    list-style-type: upper-roman;
+    color: var(--cor-texto);
+    font-size: 15px;
+
+}
+
+.Servicos{
+    text-decoration: none;
+    color: var(--cor-titulo);
+    font-size: 15px;
+}
+
+.Servicos:hover{
+    color: var(--cor-texto);
+    transition: 0.5s;
+
+}
+
+#divIcones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os ícones quebrem para a próxima linha se não couberem */
+}
+
+.icone {
+    text-align: center;
+    width: 150px; /* Largura dos ícones (ajuste conforme necessário) */
+    margin-bottom: 20px; /* Espaço entre cada ícone */
+}
+
+.icone img {
+    display: block;
+
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.icone span{
+    display: block;
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    font-size: 14px;
+    color: var(--cor-texto);
+
+}
+
+
+/* 
+.container-modal{
+    width: 100%;
+    position: fixed;
+    display: none;
+    top: 30px;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: var(--branco-ite);
+    border-radius: 10px;
+    width: 40%;
+}
+.modal hr{
+    border: 0px;
+    border-top: 1px solid lightgray;
+}
+.modal span{
+    margin: 10px auto;
+}
+.active{
+    display: flex;
+}
+.btn-modal {
+    background-color: var(--verde-claro-dois);
+    border: none;
+    color: var(--branco-ite);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin-top: 10px;
+}
+.btn-modal:hover {
+    background-color: var(--verde-principal);
+} */

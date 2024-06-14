@@ -1,3 +1,12 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 .icon-contatos{
     display: flex;
     flex-direction: row;
@@ -6,8 +15,66 @@
     
 }
 
-.icon-contatos .icon-github{
-    width: 80%;
-    height: 80%;
+.icon-contatos img{
+    width: 40%;
+    height: 40%;
+}
+
+.icon-contatos a{
+    width: 10%;
+    height: 10%;
+    margin: 1px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* Fundo inicial transparente */
+    border: 1px solid transparent;
+    border-radius: 90%;
+    transition: 0.2s;
+}
+
+.icon-contatos a:hover{
+    background: rgba(255, 255, 255, 0.2); /* Cor do fundo no hover */
+    backdrop-filter: blur(10px); /* Efeito blur */
+    -webkit-backdrop-filter: blur(10px); /* Efeito blur para Safari */
+    border: 1px solid var(--stroke-color);
+
+}
+
+.icon-contatos{
+    gap: 5px;
+    margin: 10px;
+}
+
+.icon-contatos a{
+    text-decoration: none;
+    padding-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     
+}
+
+h2{
+    color: var(--cor-texto);
+}
+
+.divContatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    margin: 30px;
+    padding: 20px;
+    
+    /* box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3); */
+    border-radius: 15px;
+
+
+
 }
